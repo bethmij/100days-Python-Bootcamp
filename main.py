@@ -1,1 +1,1 @@
-print("Hello\n"*3)
+print(123+456)
