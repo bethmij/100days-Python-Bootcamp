@@ -1,90 +1,30 @@
 import random
+import os
 
-stages = ['''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========
-''']
+import hangman_word
+import hangman_logo
 
-logo = ''' 
- _                                             
-| |                                            
-| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
-| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
-| | | | (_| | | | | (_| | | | | | | (_| | | | |
-|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
-                    __/ |                      
-                   |___/    '''
+print(hangman_logo.logo)
 
-word = ["elephant", "manifestation", "applepie"]
+chosen_word = random.choice(hangman_word.word_list)
 
-print(logo)
-
-chosen_word = random.choice(word)
-print(chosen_word)
 word_list = ["_" for i in chosen_word]
 lives = 6
 
 end_of_game = False
 
 while not end_of_game:
+
     print(''.join(word_list))
     wrong_count = 0
 
-    print(stages[lives])
+    print(hangman_logo.stages[lives])
 
     guessed_letter = input("Guess a letter : ")
+
+    if guessed_letter in word_list:
+        print(f"You already guessed {guessed_letter}")
+        continue
 
     for index, letter in enumerate(chosen_word):
         if letter == guessed_letter.lower():
