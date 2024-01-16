@@ -77,13 +77,12 @@ word_list = ["_" for i in chosen_word]
 lives = 6
 
 end_of_game = False
-wrong_count = 0
 
 while not end_of_game:
     print(''.join(word_list))
+    wrong_count = 0
 
-    # print(stages[lives])
-    print(lives)
+    print(stages[lives])
 
     guessed_letter = input("Guess a letter : ")
 
@@ -97,8 +96,11 @@ while not end_of_game:
         lives -= 1
         print(f"You guessed {guessed_letter}, that's not in the word. You lose a life.")
 
-    if "_" not in word_list or lives == 0:
+    if "_" not in word_list:
+        print("You Won!")
+        end_of_game = True
+    elif lives == 0:
         print("You Lose!")
         end_of_game = True
 
-print("You Won!")
+
