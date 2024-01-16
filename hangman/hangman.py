@@ -4,8 +4,16 @@ word = ["elephant", "manifestation", "applepie"]
 
 chosen_word = random.choice(word)
 print(chosen_word)
+word_list = ["_" for i in chosen_word]
 
-guessed_letter = input("Guess a letter : ")
+end_of_game = False
 
-for letter in chosen_word:
-    print("Right" if letter == guessed_letter else "Wrong")
+while not end_of_game:
+    guessed_letter = input("Guess a letter : ")
+
+    for index, letter in enumerate(chosen_word):
+        if letter == guessed_letter.lower():
+            word_list[index] = letter
+    print(word_list)
+
+print("You Won!")
