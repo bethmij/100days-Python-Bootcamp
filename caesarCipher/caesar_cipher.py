@@ -1,47 +1,35 @@
-logo = '''                                                                                                                               
+import art
 
-                                                                                     _/            _/                            
-    _/_/_/    _/_/_/    _/_/      _/_/_/    _/_/_/  _/  _/_/                _/_/_/      _/_/_/    _/_/_/      _/_/    _/  _/_/   
- _/        _/    _/  _/_/_/_/  _/_/      _/    _/  _/_/                  _/        _/  _/    _/  _/    _/  _/_/_/_/  _/_/        
-_/        _/    _/  _/            _/_/  _/    _/  _/                    _/        _/  _/    _/  _/    _/  _/        _/           
- _/_/_/    _/_/_/    _/_/_/  _/_/_/      _/_/_/  _/                      _/_/_/  _/  _/_/_/    _/    _/    _/_/_/  _/            
-                                                                                    _/                                           
-                                                                                   _/                                        '''
+print(art.logo)
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
             'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-
-print(logo)
-
 isEnd = False
 
 
-def encode(user_text, shift_count):
-    encoded_word = ""
-    for letter in user_text:
+def caesar(u_direction, u_text, u_shift):
+    new_word = ""
+    for letter in u_text:
         if letter in alphabet:
             index = alphabet.index(letter)
-            new_index = index + shift_count
-            if new_index > len(alphabet):
-                new_index = shift_count - (len(alphabet) - index)
-            encoded_word += alphabet[new_index]
-        else:
-            encoded_word += letter
-    print(f"Here's the encoded result : {encoded_word}")
 
+            if u_direction.lower() == "encode":
+                new_index = index + u_shift
+                if new_index > len(alphabet):
+                    new_index = u_shift - (len(alphabet) - index)
+                new_word += alphabet[new_index]
 
-def decode(user_text, shift_count):
-    decoded_word = ""
-    for letter in user_text:
-        if letter in alphabet:
-            index = alphabet.index(letter)
-            new_index = index - shift_count
-            if new_index < 0:
-                new_index = len(alphabet) - (shift_count - index)
-            decoded_word += alphabet[new_index]
+            elif u_direction.lower() == "decode":
+                new_index = index - u_shift
+                if new_index < 0:
+                    new_index = len(alphabet) - (u_shift - index)
+                new_word += alphabet[new_index]
+
+            else:
+                print("Invalid Input!")
         else:
-            decoded_word += letter
-    print(f"Here's the decoded result : {decoded_word}")
+            new_word += letter
+    print(f"Here's the {direction} result : {new_word}")
 
 
 while not isEnd:
@@ -49,18 +37,10 @@ while not isEnd:
     text = input("Type your message: ").lower()
     shift = int(input("Type the shift number: "))
 
-    if direction.lower() == "encode":
-        encode(text, shift)
-
-    elif direction.lower() == "decode":
-        decode(text, shift)
-
-    else:
-        print("Invalid Input!")
+    shift = shift % 26
+    caesar(direction, text, shift)
 
     choice = input("Type 'yes' if you want to do again.Otherwise type 'no' : ")
 
     if choice.lower() == "no" or choice.lower() != "yes":
         isEnd = True
-
-
