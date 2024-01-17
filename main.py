@@ -1,3 +1,10 @@
-import random
+student_scores = {
+  "Harry": 81,
+  "Ron": 78,
+  "Hermione": 99,
+  "Draco": 74,
+  "Neville": 62,
+}
 
-print(random.randint(0,100))
+for key in enumerate(student_scores):
+    print(key)
