@@ -6,6 +6,11 @@ print("Welcome to the secret auction program")
 
 
 def calculate_max(bid_detail):
+    """
+    Calculate max bid with winner name
+    :param bid_detail:
+    :return: winner and maximum bid
+    """
     max_num = 0
     winner = ""
 
