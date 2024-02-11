@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="added calculator" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2b3mGMFihPpvGnoqiq8D5LOp0Iq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.blind_aution.executor&quot;: &quot;Run&quot;,
+    &quot;Python.caesar_cipher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Working Projects/pythonBootcamp&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="" />
+      <created>1705452039846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705452039846</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added caesar cipher">
+      <option name="closed" value="true" />
+      <created>1705454699011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705454699011</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated caesar cipher">
+      <option name="closed" value="true" />
+      <created>1705455874738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705455874738</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated caesar cipher">
+      <option name="closed" value="true" />
+      <created>1705457859464</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705457859464</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated caesar cipher">
+      <option name="closed" value="true" />
+      <created>1705458810126</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705458810126</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated caesar cipher">
+      <option name="closed" value="true" />
+      <created>1705459373609</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705459373609</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added blind auction">
+      <option name="closed" value="true" />
+      <created>1705464264212</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705464264212</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated blind auction">
+      <option name="closed" value="true" />
+      <created>1705466182679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705466182679</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated blind auction">
+      <option name="closed" value="true" />
+      <created>1705471929257</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705471929257</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added calculator">
+      <option name="closed" value="true" />
+      <created>1705474510595</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705474510595</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added caesar cipher" />
+    <MESSAGE value="updated caesar cipher" />
+    <MESSAGE value="added blind auction" />
+    <MESSAGE value="updated blind auction" />
+    <MESSAGE value="added calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="added calculator" />
+  </component>
+</project>
