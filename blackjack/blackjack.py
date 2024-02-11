@@ -1,5 +1,4 @@
 import random
-
 import art
 
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
@@ -12,66 +11,72 @@ def calculate_score(card_list: list):
     return total
 
 
-def print_game_final_status(user_card_list: list, computer_card_list: list):
-    print(f"Your final hand: {user_card_list}, current score: {calculate_score(user_card_list)}")
-    print(f"Computer's final hand: {computer_card_list}, current score: {calculate_score(computer_card_list)}")
-
-
-def game_status(user_card_list: list, computer_card_list: list, user_choice):
+def game_status(user_card_list: list, computer_card_list: list):
     user_total = calculate_score(user_card_list)
     computer_total = calculate_score(computer_card_list)
-    print(f"Your final hand: {userCardDeck}, current score: {calculate_score(userCardDeck)}")
-    print(f"Computer's final hand: {computerCardDeck}, current score: {calculate_score(computerCardDeck)}")
 
-    if user_total == 21:
-        print("Win with a Blackjack 😎")
+    if user_total == 21 and len(user_card_list) == 2:
+        return "Win with a Blackjack 😎"
 
-    elif computer_total == 21:
-        print("Lose, opponent has Blackjack 😱")
+    elif computer_total == 21 and len(computer_card_list) == 2:
+        return "Lose, opponent has Blackjack 😱"
 
-    elif user_choice == 'y':
-        if user_total > 21:
-            print("You went over. You lose 😭")
+    elif user_total > 21:
+        return "You went over. You lose 😭"
 
-        elif computer_total > 21:
-            print("Opponent went over. You win 😁")
+    elif computer_total > 21:
+        return "Opponent went over. You win 😁"
 
-        elif user_total > computer_total:
-            print("You win 😃")
+    elif user_total > computer_total:
+        return "You win 😃"
 
-        elif user_total < computer_total:
-            print("You lose 😤")
+    elif user_total < computer_total:
+        return "You lose 😤"
 
-        elif computer_total == user_total:
-            print("Draw 🙃")
+    elif computer_total == user_total:
+        return "Draw 🙃"
 
 
 is_continue = True
 while is_continue:
     choice = input("Do you want to play a game of Blackjack? Type 'y' or 'n' : ")
     if choice == 'y':
-
         print(art.logo)
 
-        userCardDeck = [random.choice(cards) for i in range(0, 2)]
-        computerCardDeck = [random.choice(cards) for i in range(0, 2)]
-
+        userCardDeck = [random.choice(cards) for i in range(2)]
+        computerCardDeck = [random.choice(cards) for i in range(2)]
         is_new_card = True
 
         while is_new_card:
+
+            user_score = calculate_score(userCardDeck)
+            computer_score = calculate_score(computerCardDeck)
+
             print(f"Your cards: {userCardDeck}, current score: {calculate_score(userCardDeck)}")
             print(f"Computer's first card: {computerCardDeck[0]}")
-            game_status(userCardDeck, computerCardDeck, 'n')
 
-            next_choice = input("Type 'y' to get another card, type 'n' to pass: y : ")
-
-            if next_choice == 'y':
-                userCardDeck.append(random.choice(cards))
-                computerCardDeck.append(random.choice(cards))
-                game_status(userCardDeck, computerCardDeck, 'n')
-            else:
-                game_status(userCardDeck, computerCardDeck, 'y')
+            if user_score >= 21 or computer_score >= 21:
                 is_new_card = False
+
+            else:
+                next_choice = input("Type 'y' to get another card, type 'n' to pass: y : ")
+
+                if next_choice == 'y':
+                    userCardDeck.append(random.choice(cards))
+
+                    if userCardDeck[-1] == 11 and user_score > 21:
+                        userCardDeck[-1] = 1
+
+                    while computer_score != 0 and computer_score < 17:
+                        computerCardDeck.append(random.choice(cards))
+                        computer_score = calculate_score(computerCardDeck)
+
+                else:
+                    is_new_card = False
+
+        print(f"Your final hand: {userCardDeck}, current score: {calculate_score(userCardDeck)}")
+        print(f"Computer's final hand: {computerCardDeck}, current score: {calculate_score(computerCardDeck)}")
+        print(game_status(userCardDeck, computerCardDeck))
 
     else:
         is_continue = False
