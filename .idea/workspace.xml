@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="higher_lower game added">
+    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="coffee_machine added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/higher-lower/higher_lower.py" beforeDir="false" afterPath="$PROJECT_DIR$/higher-lower/higher_lower.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeeMachine/coffee_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffeeMachine/coffee_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeeMachine/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffeeMachine/data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
     "Python.blind_aution.executor": "Run",
     "Python.caesar_cipher.executor": "Run",
     "Python.calculator.executor": "Run",
+    "Python.coffee_machine.executor": "Run",
     "Python.debugging.executor": "Run",
     "Python.guess_the_name.executor": "Run",
     "Python.higher_lower.executor": "Run",
@@ -47,7 +49,29 @@
     "last_opened_file_path": "D:/IJSE/Working Projects/pythonBootcamp"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.higher_lower">
+  <component name="RunManager" selected="Python.coffee_machine">
+    <configuration name="coffee_machine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonBootcamp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coffeeMachine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coffeeMachine/coffee_machine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="debugging" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBootcamp" />
       <option name="ENV_FILES" value="" />
@@ -94,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.coffee_machine" />
         <item itemvalue="Python.higher_lower" />
         <item itemvalue="Python.debugging" />
       </list>
@@ -219,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707713958772</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="coffee_machine added">
+      <option name="closed" value="true" />
+      <created>1707721597260</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707721597260</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +265,7 @@
     <MESSAGE value="guess_the_name added" />
     <MESSAGE value="debugging added" />
     <MESSAGE value="higher_lower game added" />
-    <option name="LAST_COMMIT_MESSAGE" value="higher_lower game added" />
+    <MESSAGE value="coffee_machine added" />
+    <option name="LAST_COMMIT_MESSAGE" value="coffee_machine added" />
   </component>
 </project>
