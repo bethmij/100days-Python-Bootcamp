@@ -1,10 +1,12 @@
-student_scores = {
-  "Harry": 81,
-  "Ron": 78,
-  "Hermione": 99,
-  "Draco": 74,
-  "Neville": 62,
-}
+from turtle import Turtle, Screen
+from prettytable import PrettyTable
+# timmy = Turtle()
+# timmy.color("red", "green")
+# my_screen = Screen()
+# my_screen.exitonclick()
 
-for key in enumerate(student_scores):
-    print(key)
+table = PrettyTable()
+table.add_column("Name", ["Kamal", "Namal", "Supun"])
+table.add_column("Age", [30, 21, 44])
+print(table)
+
