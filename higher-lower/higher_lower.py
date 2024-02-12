@@ -1,10 +1,10 @@
 import random
-
 import art
 import game_data
 
 print(art.logo)
 total_marks = 0
+celebrity_A = random.choice(game_data.data)
 
 
 def get_follow_most():
@@ -17,7 +17,6 @@ def get_follow_most():
 is_continue = True
 
 while is_continue:
-    celebrity_A = random.choice(game_data.data)
     celebrity_B = random.choice(game_data.data)
 
     while celebrity_A == celebrity_B:
@@ -32,6 +31,7 @@ while is_continue:
     if choice == 'A' or choice == 'B':
         if choice == 'A' and winner == celebrity_A or choice == 'B' and winner == celebrity_B:
             total_marks += 1
+            celebrity_A = celebrity_B
             print('\n' * 100)
             print(art.logo)
             print(f"You're right! Current Score: {total_marks}")
