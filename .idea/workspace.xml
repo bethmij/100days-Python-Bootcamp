@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="coffee_machine updated">
-      <change afterPath="$PROJECT_DIR$/oopCoffeeMachine/coffeeMaker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oopCoffeeMachine/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oopCoffeeMachine/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oopCoffeeMachine/menuItem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oopCoffeeMachine/moneyMachine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeeMachine/coffee_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/oopCoffeeMachine/coffee_machine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeeMachine/data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="oop_coffee_machine updated">
+      <change afterPath="$PROJECT_DIR$/quiz_game/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quiz_game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blindAuction/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/blind_auction/art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blindAuction/blind_aution.py" beforeDir="false" afterPath="$PROJECT_DIR$/blind_auction/blind_aution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caesarCipher/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/caesar_cipher/art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caesarCipher/caesar_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/caesar_cipher/caesar_cipher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guessTheNumber/guess_the_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/guess_the_number/guess_the_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nameBandGenerator/name_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/band_name_generator/name_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oopCoffeeMachine/coffeeMaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_coffee_machine/coffeeMaker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oopCoffeeMachine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_coffee_machine/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oopCoffeeMachine/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_coffee_machine/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oopCoffeeMachine/menuItem.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_coffee_machine/menuItem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oopCoffeeMachine/moneyMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_coffee_machine/moneyMachine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwordGenerator/password_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_generator/password_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rockPaperScissors/rock_paper_scisssors.py" beforeDir="false" afterPath="$PROJECT_DIR$/rock_paper_scissors/rock_paper_scisssors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tipCalculator/tip_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tip_calculator/tip_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasureIsland/treasure_island.py" beforeDir="false" afterPath="$PROJECT_DIR$/treasure_island/treasure_island.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707729197810</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="oop_coffee_machine updated">
+      <option name="closed" value="true" />
+      <created>1707747337950</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707747337951</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -329,6 +345,7 @@
     <MESSAGE value="higher_lower game added" />
     <MESSAGE value="coffee_machine added" />
     <MESSAGE value="coffee_machine updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="coffee_machine updated" />
+    <MESSAGE value="oop_coffee_machine updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop_coffee_machine updated" />
   </component>
 </project>
