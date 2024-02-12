@@ -4,7 +4,7 @@ import random
 def guess_number(attempts: int):
     for i in range(attempts):
         print(f"You have {attempts - i} attempts remaining to guess the number")
-        guessed_number = int(input("Make a guess"))
+        guessed_number = int(input("Make a guess : "))
 
         if number == guessed_number:
             return f"You got it! The answer was {number}"
@@ -19,8 +19,8 @@ def guess_number(attempts: int):
 
 
 print("Welcome to the Number Guessing Game!\nI am thinking of a number between 1 and 100")
-difficulty_level = input("Choose a difficulty. Type 'easy' or 'hard'")
-number = random.randint(1, 101)
+difficulty_level = input("Choose a difficulty. Type 'easy' or 'hard' : ")
+number = random.randint(1, 100)
 print(number)
 
 if difficulty_level == 'easy':
