@@ -60,7 +60,7 @@ while is_continue:
                     if userCardDeck[-1] == 11 and user_score > 21:
                         userCardDeck[-1] = 1
 
-                    while computer_score != 0 and computer_score < 17:
+                    while computer_score < 17:
                         computerCardDeck.append(random.choice(cards))
                         computer_score = sum(computerCardDeck)
 
@@ -73,3 +73,4 @@ while is_continue:
 
     else:
         is_continue = False
+

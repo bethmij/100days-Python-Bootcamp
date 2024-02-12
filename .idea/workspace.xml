@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="added calculator" />
+    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="blackjack updated">
+      <change afterPath="$PROJECT_DIR$/guessTheNumber/guess_the_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackjack/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack/blackjack.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +38,7 @@
     "Python.blind_aution.executor": "Run",
     "Python.caesar_cipher.executor": "Run",
     "Python.calculator.executor": "Run",
+    "Python.guess_the_name.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -129,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705474510595</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="blackjack updated">
+      <option name="closed" value="true" />
+      <created>1707698766382</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707698766382</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +151,7 @@
     <MESSAGE value="added blind auction" />
     <MESSAGE value="updated blind auction" />
     <MESSAGE value="added calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="added calculator" />
+    <MESSAGE value="blackjack updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="blackjack updated" />
   </component>
 </project>
