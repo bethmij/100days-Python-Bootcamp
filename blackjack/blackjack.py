@@ -4,16 +4,9 @@ import art
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
 
-def calculate_score(card_list: list):
-    total = 0
-    for cardNumber in card_list:
-        total += cardNumber
-    return total
-
-
 def game_status(user_card_list: list, computer_card_list: list):
-    user_total = calculate_score(user_card_list)
-    computer_total = calculate_score(computer_card_list)
+    user_total = sum(user_card_list)
+    computer_total = sum(computer_card_list)
 
     if user_total == 21 and len(user_card_list) == 2:
         return "Win with a Blackjack 😎"
@@ -49,10 +42,10 @@ while is_continue:
 
         while is_new_card:
 
-            user_score = calculate_score(userCardDeck)
-            computer_score = calculate_score(computerCardDeck)
+            user_score = sum(userCardDeck)
+            computer_score = sum(computerCardDeck)
 
-            print(f"Your cards: {userCardDeck}, current score: {calculate_score(userCardDeck)}")
+            print(f"Your cards: {userCardDeck}, current score: {user_score}")
             print(f"Computer's first card: {computerCardDeck[0]}")
 
             if user_score >= 21 or computer_score >= 21:
@@ -69,13 +62,13 @@ while is_continue:
 
                     while computer_score != 0 and computer_score < 17:
                         computerCardDeck.append(random.choice(cards))
-                        computer_score = calculate_score(computerCardDeck)
+                        computer_score = sum(computerCardDeck)
 
                 else:
                     is_new_card = False
 
-        print(f"Your final hand: {userCardDeck}, current score: {calculate_score(userCardDeck)}")
-        print(f"Computer's final hand: {computerCardDeck}, current score: {calculate_score(computerCardDeck)}")
+        print(f"Your final hand: {userCardDeck}, current score: {sum(userCardDeck)}")
+        print(f"Computer's final hand: {computerCardDeck}, current score: {sum(computerCardDeck)}")
         print(game_status(userCardDeck, computerCardDeck))
 
     else:
