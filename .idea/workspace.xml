@@ -4,39 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="quiz game updated">
-      <change afterPath="$PROJECT_DIR$/day_18 TURTLE/warm_up.py" afterDir="false" />
+    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="turtle GUI warmup updated">
+      <change afterPath="$PROJECT_DIR$/day_18 TURTLE/hirst_painting/hirst_painting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/band_name_generator/name_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/band_name_generator/name_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blackjack/art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blackjack/blackjack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blind_auction/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blind_auction/art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blind_auction/blind_aution.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blind_auction/blind_aution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caesar_cipher/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/caesar_cipher/art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caesar_cipher/caesar_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/caesar_cipher/caesar_cipher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/calculator/art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/calculator/calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debugging/debugging.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/debugging/debugging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guess_the_number/guess_the_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/guess_the_number/guess_the_name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/hangman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman/hangman_logo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/hangman_logo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman/hangman_word.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/hangman_word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/higher-lower/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/higher-lower/game_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/game_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/higher-lower/higher_lower.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/higher_lower.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_coffee_machine/coffeeMaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/coffeeMaker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_coffee_machine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_coffee_machine/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_coffee_machine/menuItem.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/menuItem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_coffee_machine/moneyMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/moneyMachine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/password_generator/password_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/password_generator/password_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz_game/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz_game/question_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/question_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz_game/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/quiz_brain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rock_paper_scissors/rock_paper_scisssors.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/rock_paper_scissors/rock_paper_scisssors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tip_calculator/tip_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/tip_calculator/tip_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasure_island/treasure_island.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/treasure_island/treasure_island.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +41,7 @@
     "Python.debugging.executor": "Run",
     "Python.guess_the_name.executor": "Run",
     "Python.higher_lower.executor": "Run",
+    "Python.hirst_painting.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
     "Python.main (3).executor": "Run",
@@ -85,11 +56,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IJSE\Working Projects\pythonBootcamp\day_18 TURTLE\hirst_painting" />
       <recent name="D:\IJSE\Working Projects\pythonBootcamp\day_1 - day_17 CLI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.warm_up">
-    <configuration name="coffee_machine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.hirst_painting">
+    <configuration name="hirst_painting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBootcamp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coffeeMachine" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_18 TURTLE/hirst_painting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coffeeMachine/coffee_machine.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_18 TURTLE/hirst_painting/hirst_painting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hirst_painting" />
         <item itemvalue="Python.warm_up" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.coffee_machine" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707755174537</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="turtle GUI warmup updated">
+      <option name="closed" value="true" />
+      <created>1707788386673</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1707788386673</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -395,6 +375,7 @@
     <MESSAGE value="oop_coffee_machine updated" />
     <MESSAGE value="quiz game added" />
     <MESSAGE value="quiz game updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="quiz game updated" />
+    <MESSAGE value="turtle GUI warmup updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="turtle GUI warmup updated" />
   </component>
 </project>
