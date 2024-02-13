@@ -1,5 +1,4 @@
 import random
-import os
 
 import hangman_word
 import hangman_logo

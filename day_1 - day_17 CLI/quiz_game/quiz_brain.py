@@ -26,4 +26,3 @@ class QuizBrain:
             print("check answer ", self.score)
             return True
         return False
-h
