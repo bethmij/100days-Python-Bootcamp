@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="turtle GUI warmup updated">
-      <change afterPath="$PROJECT_DIR$/day_18 TURTLE/hirst_painting/hirst_painting.py" afterDir="false" />
+    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="hirst painting added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/band_name_generator/name_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/band_name_generator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/blackjack/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blackjack/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/blind_auction/blind_aution.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blind_auction/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/caesar_cipher/caesar_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/caesar_cipher/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/calculator/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/calculator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/debugging/debugging.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/debugging/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/guess_the_number/guess_the_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/guess_the_number/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/higher_lower.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/password_generator/password_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/password_generator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/rock_paper_scissors/rock_paper_scisssors.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/rock_paper_scissors/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/tip_calculator/tip_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/tip_calculator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/treasure_island/treasure_island.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/treasure_island/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 TURTLE/hirst_painting/hirst_painting.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 TURTLE/hirst_painting/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,58 +44,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.blackjack.executor": "Run",
-    "Python.blind_aution.executor": "Run",
-    "Python.caesar_cipher.executor": "Run",
-    "Python.calculator.executor": "Run",
-    "Python.coffee_machine.executor": "Run",
-    "Python.debugging.executor": "Run",
-    "Python.guess_the_name.executor": "Run",
-    "Python.higher_lower.executor": "Run",
-    "Python.hirst_painting.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Run",
-    "Python.main (3).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.warm_up.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/IJSE/Working Projects/pythonBootcamp",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.blackjack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.blind_aution.executor&quot;: &quot;Run&quot;,
+    &quot;Python.caesar_cipher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coffee_machine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.debugging.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guess_the_name.executor&quot;: &quot;Run&quot;,
+    &quot;Python.higher_lower.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hirst_painting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.warm_up.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Working Projects/pythonBootcamp&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IJSE\Working Projects\pythonBootcamp\day_18 TURTLE\hirst_painting" />
       <recent name="D:\IJSE\Working Projects\pythonBootcamp\day_1 - day_17 CLI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hirst_painting">
-    <configuration name="hirst_painting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonBootcamp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_18 TURTLE/hirst_painting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_18 TURTLE/hirst_painting/hirst_painting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBootcamp" />
       <option name="ENV_FILES" value="" />
@@ -149,6 +140,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonBootcamp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_18 TURTLE/hirst_painting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\IJSE\Working Projects\pythonBootcamp\day_18 TURTLE\hirst_painting\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="warm_up" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBootcamp" />
       <option name="ENV_FILES" value="" />
@@ -173,7 +186,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hirst_painting" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.warm_up" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
@@ -357,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707788386673</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="hirst painting added">
+      <option name="closed" value="true" />
+      <created>1707792506614</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1707792506614</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -376,6 +397,7 @@
     <MESSAGE value="quiz game added" />
     <MESSAGE value="quiz game updated" />
     <MESSAGE value="turtle GUI warmup updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="turtle GUI warmup updated" />
+    <MESSAGE value="hirst painting added" />
+    <option name="LAST_COMMIT_MESSAGE" value="hirst painting added" />
   </component>
 </project>
