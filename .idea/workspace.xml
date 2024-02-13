@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="hirst painting added">
+      <change afterPath="$PROJECT_DIR$/day_18 TURTLE/etch_a_sketch/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/band_name_generator/name_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/band_name_generator/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/blackjack/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blackjack/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/blind_auction/blind_aution.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blind_auction/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/caesar_cipher/caesar_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/caesar_cipher/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/calculator/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/calculator/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/debugging/debugging.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/debugging/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/guess_the_number/guess_the_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/guess_the_number/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/higher_lower.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/password_generator/password_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/password_generator/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/rock_paper_scissors/rock_paper_scisssors.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/rock_paper_scissors/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/tip_calculator/tip_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/tip_calculator/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/treasure_island/treasure_island.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/treasure_island/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_18 TURTLE/hirst_painting/hirst_painting.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 TURTLE/hirst_painting/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +60,7 @@
       <recent name="D:\IJSE\Working Projects\pythonBootcamp\day_1 - day_17 CLI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBootcamp" />
       <option name="ENV_FILES" value="" />
@@ -110,6 +97,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quiz_game/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonBootcamp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_18 TURTLE/etch_a_sketch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_18 TURTLE/etch_a_sketch/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,18 +195,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.warm_up" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -378,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707792506614</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="hirst painting added">
+      <option name="closed" value="true" />
+      <created>1707793547696</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1707793547696</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
