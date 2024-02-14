@@ -7,16 +7,17 @@ class Ball(Turtle):
         super().__init__()
         self.shape('circle')
         self.color('white')
+        self.angle = 30
 
     def move_ball(self):
-        # is_move = True
-        # for _ in range(10):
         self.penup()
-        self.setheading(30)
-        self.backward(10)
+        self.setheading(self.angle)
+        self.forward(10)
 
     def detect_wall_collision(self):
         if self.xcor() > 390 or self.xcor() < -390:
             return False
-        else:
-            return True
+        return True
+
+    def bounce_ball(self):
+        self.angle += 90
