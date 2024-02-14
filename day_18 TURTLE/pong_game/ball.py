@@ -13,6 +13,10 @@ class Ball(Turtle):
         # for _ in range(10):
         self.penup()
         self.setheading(30)
-        self.forward(10)
+        self.backward(10)
 
-    def detect_wall_collisio
+    def detect_wall_collision(self):
+        if self.xcor() > 390 or self.xcor() < -390:
+            return False
+        else:
+            return True
