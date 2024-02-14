@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="turtle race added" />
+    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="ping pong added">
+      <change afterPath="$PROJECT_DIR$/day_18 TURTLE/pong_game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -409,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707810086227</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ping pong added">
+      <option name="closed" value="true" />
+      <created>1707885401393</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1707885401393</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -431,6 +442,7 @@
     <MESSAGE value="hirst painting added" />
     <MESSAGE value="etch a sketch added" />
     <MESSAGE value="turtle race added" />
-    <option name="LAST_COMMIT_MESSAGE" value="turtle race added" />
+    <MESSAGE value="ping pong added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ping pong added" />
   </component>
 </project>
