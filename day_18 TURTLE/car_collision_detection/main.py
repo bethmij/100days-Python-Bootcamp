@@ -21,8 +21,8 @@ FINISH_LINE = 250
 while is_game_on:
     screen.update()
     time.sleep(car.moving_speed)
+    car.create_cars()
     car.move_cars()
-    # car.reset_positions()
 
     for cars in car.car_list:
         if cars.distance(timmy) < 20:
@@ -32,8 +32,6 @@ while is_game_on:
     if timmy.ycor() > FINISH_LINE:
         score_board.update_level()
         timmy.update()
-        car.restart()
         car.update_car_speed()
-        print(car.moving_speed)
 
 screen.exitonclick()

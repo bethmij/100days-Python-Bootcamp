@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="car_collision_race added">
-      <change afterPath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/score_board.py" afterDir="false" />
+    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="car_collision_race update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/car.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/timmy.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/timmy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -475,11 +473,18 @@
       <option name="project" value="LOCAL" />
       <updated>1707967032861</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="car_collision_race update">
+      <option name="closed" value="true" />
+      <created>1707971413869</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1707971413869</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added caesar cipher" />
     <MESSAGE value="updated caesar cipher" />
     <MESSAGE value="added blind auction" />
     <MESSAGE value="updated blind auction" />
@@ -504,6 +509,7 @@
     <MESSAGE value="pong detect_wall_collision" />
     <MESSAGE value="pong ball bounce" />
     <MESSAGE value="car_collision_race added" />
-    <option name="LAST_COMMIT_MESSAGE" value="car_collision_race added" />
+    <MESSAGE value="car_collision_race update" />
+    <option name="LAST_COMMIT_MESSAGE" value="car_collision_race update" />
   </component>
 </project>
