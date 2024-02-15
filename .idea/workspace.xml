@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="pong ball bounce">
-      <change afterPath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/timmy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_18 TURTLE/pong_game/score_board.py" afterDir="false" />
+    <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="car_collision_race added">
+      <change afterPath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/score_board.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_18 TURTLE/pong_game/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 TURTLE/pong_game/ball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_18 TURTLE/pong_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 TURTLE/pong_game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/timmy.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 TURTLE/car_collision_detection/timmy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +55,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/IJSE/Working Projects/snake_game",
+    "last_opened_file_path": "D:/IJSE/Working Projects/pythonBootcamp/day_18 TURTLE/car_collision_detection",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IJSE\Working Projects\pythonBootcamp\day_18 TURTLE\car_collision_detection" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IJSE\Working Projects\pythonBootcamp\day_18 TURTLE\hirst_painting" />
       <recent name="D:\IJSE\Working Projects\pythonBootcamp\day_1 - day_17 CLI" />
@@ -465,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707891924169</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="car_collision_race added">
+      <option name="closed" value="true" />
+      <created>1707967032861</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1707967032861</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -493,6 +503,7 @@
     <MESSAGE value="pong moving ball" />
     <MESSAGE value="pong detect_wall_collision" />
     <MESSAGE value="pong ball bounce" />
-    <option name="LAST_COMMIT_MESSAGE" value="pong ball bounce" />
+    <MESSAGE value="car_collision_race added" />
+    <option name="LAST_COMMIT_MESSAGE" value="car_collision_race added" />
   </component>
 </project>

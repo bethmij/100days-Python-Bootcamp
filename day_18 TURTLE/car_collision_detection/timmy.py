@@ -12,3 +12,6 @@ class Timmy(Turtle):
 
     def move(self):
         self.forward(10)
+
+    def update(self):
+        self.goto(0, -280)
