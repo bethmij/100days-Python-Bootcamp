@@ -10,7 +10,7 @@ for color in unique_color[1:]:
     count = (data[data[PLACEHOLDER] == color]).size
     data_dict['Fur Color'].append(color)
     data_dict['Count'].append(count)
-d
+
 
 data = pandas.DataFrame(data_dict)
 data.to_csv('data.csv')
