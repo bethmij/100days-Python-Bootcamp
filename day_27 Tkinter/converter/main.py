@@ -3,6 +3,7 @@ from tkinter import *
 window = Tk()
 window.title("Mile to Kilometer Converter")
 window.minsize(width=250, height=100)
+window.config(padx=20, pady=20)
 
 
 def miles_to_kilometers():
