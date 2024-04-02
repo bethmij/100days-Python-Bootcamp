@@ -5,7 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47c45e56-e3e9-4121-a368-b73fec32c1d2" name="Changes" comment="tkinter playground updated">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/day_27 Tkinter/tkinter_widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonBootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonBootcamp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/band_name_generator/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/band_name_generator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/blackjack/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blackjack/art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/blackjack/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blackjack/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/blind_auction/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blind_auction/art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/blind_auction/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/blind_auction/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/caesar_cipher/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/caesar_cipher/art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/caesar_cipher/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/caesar_cipher/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/calculator/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/calculator/art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/calculator/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/calculator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/debugging/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/debugging/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/guess_the_number/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/guess_the_number/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/hangman_logo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/hangman_logo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/hangman_word.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/hangman_word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/hangman/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/game_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/game_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/higher-lower/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/coffeeMaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/coffeeMaker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/menuItem.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/menuItem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/moneyMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/oop_coffee_machine/moneyMachine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/password_generator/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/password_generator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/question_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/question_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/quiz_game/quiz_brain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/rock_paper_scissors/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/rock_paper_scissors/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/tip_calculator/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/tip_calculator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_1 - day_17 CLI/treasure_island/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_1 - day_17 CLI/treasure_island/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/NATO_alphabet/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/NATO_alphabet/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/Squirrel Census Data Analysis/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/Squirrel Census Data Analysis/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/Squirrel Census Data Analysis/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/Squirrel Census Data Analysis/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/car_collision_detection/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/car_collision_detection/car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/car_collision_detection/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/car_collision_detection/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/car_collision_detection/score_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/car_collision_detection/score_board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/car_collision_detection/timmy.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/car_collision_detection/timmy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/etch_a_sketch/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/etch_a_sketch/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/hirst_painting/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/hirst_painting/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/input/names" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/input/names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/input/start_mail" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/input/start_mail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Aang_mail" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Aang_mail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Appa_mail" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Appa_mail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Katara_mail" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Katara_mail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Momo_mail" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Momo_mail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Sokka_mail" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Sokka_mail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Toph_mail" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Toph_mail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Uncle Iroh_mail" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Uncle Iroh_mail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Zuko_mail" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/mail_merge/output/Zuko_mail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/pong_game/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/pong_game/ball.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/pong_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/pong_game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/pong_game/paddle.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/pong_game/paddle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/pong_game/score_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/pong_game/score_board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/reading_csv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/reading_csv/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/reading_csv/weather_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/reading_csv/weather_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/turtle_race/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/turtle_race/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_18 - day_26 TURTLE/warm_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_18 - day_26 TURTLE/warm_up.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+>>>>>>> origin/master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +101,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
@@ -59,6 +128,40 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Working Projects/pythonBootcamp/day_18 TURTLE/car_collision_detection&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.blackjack.executor": "Run",
+    "Python.blind_aution.executor": "Run",
+    "Python.caesar_cipher.executor": "Run",
+    "Python.calculator.executor": "Run",
+    "Python.coffee_machine.executor": "Run",
+    "Python.debugging.executor": "Run",
+    "Python.guess_the_name.executor": "Run",
+    "Python.higher_lower.executor": "Run",
+    "Python.hirst_painting.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main (4).executor": "Run",
+    "Python.main (5).executor": "Run",
+    "Python.main (6).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.playground.executor": "Run",
+    "Python.warm_up.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/media/bethmij/New Volume/IJSE/Working Projects/pythonBootcamp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> origin/master
   }
 }</component>
   <component name="RecentsManager">
@@ -72,7 +175,7 @@
       <recent name="D:\IJSE\Working Projects\pythonBootcamp\day_1 - day_17 CLI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.playground">
+  <component name="RunManager" selected="Python.tkinter_widgets">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBootcamp" />
       <option name="ENV_FILES" value="" />
@@ -119,6 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="main (6)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBootcamp" />
       <option name="ENV_FILES" value="" />
@@ -142,6 +246,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+=======
+>>>>>>> origin/master
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBootcamp" />
       <option name="ENV_FILES" value="" />
@@ -188,20 +294,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tkinter_widgets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonBootcamp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_27 Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_27 Tkinter/tkinter_widgets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tkinter_widgets" />
         <item itemvalue="Python.playground" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (6)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
@@ -213,6 +342,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705452039846</updated>
+      <workItem from="1712059214083" duration="1219000" />
     </task>
     <task id="LOCAL-00001" summary="added caesar cipher">
       <option name="closed" value="true" />
@@ -529,6 +659,9 @@
     <option name="localTasksCounter" value="40" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="guess_the_name added" />
@@ -557,5 +690,11 @@
     <MESSAGE value="Squirrel Census Data Analysis update" />
     <MESSAGE value="tkinter playground updated" />
     <option name="LAST_COMMIT_MESSAGE" value="tkinter playground updated" />
+<<<<<<< HEAD
+=======
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonBootcamp$playground.coverage" NAME="playground Coverage Results" MODIFIED="1712060437957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_27 Tkinter" />
+>>>>>>> origin/master
   </component>
 </project>
