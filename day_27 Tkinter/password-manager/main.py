@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import messagebox
 
 FONT = ("Arial", 11)
 
@@ -12,10 +13,17 @@ def add_details():
     password = input_password.get()
 
     if website and email and password:
-        with open("data.txt", "a") as file:
-            file.writelines(f"{website} | {email} | {password}\n")
-        input_web.delete(0, END)
-        input_password.delete(0, END)
+        is_ok = messagebox.askokcancel(website, f"Email : {email}\nPassword : {password}\nIs it ok to save?")
+
+        if is_ok:
+            with open("data.txt", "a") as file:
+                file.writelines(f"{website} | {email} | {password}\n")
+                messagebox.showinfo("Success", "Details saved!")
+                input_web.delete(0, END)
+                input_password.delete(0, END)
+
+    else:
+        messagebox.showerror("Error", "Please fill all fields!")
 
 
 # ---------------------------- UI SETUP ------------------------------- #
