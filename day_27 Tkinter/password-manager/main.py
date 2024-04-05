@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import random
 import pyperclip
+import json
 
 FONT = ("Arial", 11)
 
@@ -43,9 +44,23 @@ def add_details():
     if website and email and password:
         is_ok = messagebox.askokcancel(website, f"Email : {email}\nPassword : {password}\nIs it ok to save?")
 
+        data = {website: {
+            "email": email,
+            "password": password}
+        }
+
         if is_ok:
-            with open("data.txt", "a") as file:
-                file.writelines(f"{website} | {email} | {password}\n")
+            try:
+                with open("data.json", "r") as file:
+                    json_data = json.load(file)
+                    json_data.update(data)
+            except FileNotFoundError:
+                with open("data.json", "w") as file:
+                    json.dump(data, file, indent=4)
+            else:
+                with open("data.json", "w") as file:
+                    json.dump(json_data, file, indent=4)
+            finally:
                 messagebox.showinfo("Success", "Details saved!")
                 input_web.delete(0, END)
                 input_password.delete(0, END)
