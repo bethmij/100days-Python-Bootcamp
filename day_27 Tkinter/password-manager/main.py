@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 import random
+import pyperclip
 
 FONT = ("Arial", 11)
 
@@ -29,6 +30,8 @@ def generate_password():
 
     input_password.delete(0, END)
     input_password.insert(0, password)
+
+    pyperclip.copy(password)
 
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
