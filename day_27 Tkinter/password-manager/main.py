@@ -35,9 +35,25 @@ def generate_password():
     pyperclip.copy(password)
 
 
+def find_password():
+    website_name = input_web.get().capitalize()
+
+    try:
+        with open("data.json", "r") as file:
+            data = json.load(file)
+            if website_name in data:
+                messagebox.showinfo(website_name, f"Website : {website_name}\nEmail : {data[website_name]['email']}\n"
+                                                  f"Password: {data[website_name]['password']}")
+                pyperclip.copy(data[website_name]['password'])
+            else:
+                messagebox.showerror("Error", "No details for the website exist")
+    except FileNotFoundError:
+        messagebox.showerror("Error", "No Data File found")
+
+
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def add_details():
-    website = input_web.get()
+    website = input_web.get().capitalize()
     email = input_email.get()
     password = input_password.get()
 
@@ -53,11 +69,12 @@ def add_details():
             try:
                 with open("data.json", "r") as file:
                     json_data = json.load(file)
-                    json_data.update(data)
+
             except FileNotFoundError:
                 with open("data.json", "w") as file:
                     json.dump(data, file, indent=4)
             else:
+                json_data.update(data)
                 with open("data.json", "w") as file:
                     json.dump(json_data, file, indent=4)
             finally:
@@ -80,15 +97,15 @@ canvas.create_image(100, 100, image=img)
 canvas.grid(row=0, column=1)
 
 # Entries
-input_web = Entry(width=39)
+input_web = Entry(width=25)
 input_web.focus()
-input_web.grid(row=1, column=1, columnspan=2)
+input_web.grid(row=1, column=1)
 
 input_email = Entry(width=39)
 input_email.insert(0, "bethmij@gmail.com")
 input_email.grid(row=2, column=1, columnspan=2)
 
-input_password = Entry(width=22)
+input_password = Entry(width=25)
 input_password.grid(row=3, column=1)
 
 # Labels
@@ -107,5 +124,7 @@ button_generate.grid(row=3, column=2)
 
 button_add = Button(text="Add", width=36, command=add_details)
 button_add.grid(row=4, column=1, columnspan=2)
+button_search = Button(text="Search", command=find_password, width=10)
+button_search.grid(row=1, column=2)
 
 window.mainloop()
