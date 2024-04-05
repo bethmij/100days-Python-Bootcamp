@@ -11,10 +11,11 @@ def add_details():
     email = input_email.get()
     password = input_password.get()
 
-
     if website and email and password:
         with open("data.txt", "a") as file:
             file.writelines(f"{website} | {email} | {password}\n")
+        input_web.delete(0, END)
+        input_password.delete(0, END)
 
 
 # ---------------------------- UI SETUP ------------------------------- #
