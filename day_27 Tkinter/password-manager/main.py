@@ -41,14 +41,15 @@ def find_password():
     try:
         with open("data.json", "r") as file:
             data = json.load(file)
-            if website_name in data:
-                messagebox.showinfo(website_name, f"Website : {website_name}\nEmail : {data[website_name]['email']}\n"
-                                                  f"Password: {data[website_name]['password']}")
-                pyperclip.copy(data[website_name]['password'])
-            else:
-                messagebox.showerror("Error", "No details for the website exist")
     except FileNotFoundError:
         messagebox.showerror("Error", "No Data File found")
+    else:
+        if website_name in data:
+            messagebox.showinfo(website_name, f"Website : {website_name}\nEmail : {data[website_name]['email']}\n"
+                                              f"Password: {data[website_name]['password']}")
+            pyperclip.copy(data[website_name]['password'])
+        else:
+            messagebox.showerror("Error", "No details for the website exist")
 
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
