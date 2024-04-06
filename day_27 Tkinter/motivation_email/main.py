@@ -12,7 +12,8 @@ def send_email():
     with open("quotes.txt", "r") as files:
         quotes = [quote.replace("\n", "") for quote in files.readlines()]
 
-    connection = smtplib.SMTP("smtp.gmail.com", 587)
+    # connection = smtplib.SMTP("smtp.gmail.com", 587)
+    connection = smtplib.SMTP("smtp.gmail.com")
     connection.starttls()
     connection.login(my_email, my_password)
     connection.sendmail(my_email, "bethmij@gmail.com", f"Subject:Motivation For the Day\n\n{random.choice(quotes)}")
