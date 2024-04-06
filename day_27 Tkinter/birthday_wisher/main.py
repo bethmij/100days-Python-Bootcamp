@@ -22,7 +22,7 @@ def birthday_wish_letter(name):
     random_num = random.randint(1, 3)
     with open(f"letter_templates/letter_{random_num}.txt") as files:
         letter = [file.replace("[NAME]", name) for file in files.readlines()]
-        return letter
+        return "".join(letter)
 
 
 try:
@@ -36,6 +36,5 @@ else:
     for birthday in birthdays:
         if birthday['month'] == current_month and birthday['day'] == current_day:
             sending_email = birthday['email']
-            print(sending_email)
             message = birthday_wish_letter(birthday['name'])
             send_email(sending_email, "Happy Birthday!", message)
